@@ -34,7 +34,17 @@ article {
     color: rgb(33, 37, 41);
     text-decoration: none;
     }
-    
+article p {
+        font-size: 120%;
+        font-weight: bold;
+        color: Black;
+}
+article p:hover {
+    font-size: 120%;
+    font-weight: bold;
+    color: beige;
+}
+
 article a:hover {
     color: #0085a1;
     }
