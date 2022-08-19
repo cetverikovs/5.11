@@ -1,15 +1,27 @@
+*,
+*::after
+*::before {
+    box-sizing: border-box;
+}
+
 body {
     padding: 0;
     margin: 0;
     background-color: grey;
 }
-header {
+.header {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
     background: url('https://cdn.pixabay.com/photo/2016/09/12/15/48/sunset-1664960__480.jpg');
     background-size: cover;
+}
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+
 
 }
 h1 {
@@ -30,21 +42,21 @@ article {
     padding: 6px 15px;
     border-bottom: 1px rgb(128, 128, 128) ;
     }
-    article a {
+article a {
     color: rgb(33, 37, 41);
     text-decoration: none;
     }
-article p {
+
+    article p {
         font-size: 120%;
         font-weight: bold;
         color: Black;
-}
+    }
 article p:hover {
-    font-size: 120%;
-    font-weight: bold;
-    color: beige;
-}
-
+        font-size: 120%;
+        font-weight: bold;
+        color: beige;
+    }
 article a:hover {
     color: #0085a1;
     }
